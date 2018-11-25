@@ -3,6 +3,7 @@ import { Text, View, ImageBackground } from 'react-native';
 const myBackground = require('../assets/landing.jpg');
 import { Form, Item, Label, Input, Button } from 'native-base';
 
+//client
 export class SignIn extends Component {
   state = {
     email: '',
